@@ -76,9 +76,7 @@
     - **Answer:** A technique used to identify open ports and services running on a system.
 
 20. **What tools are commonly used for penetration testing?**
-    - **Answer:** Nmap, Metasploit, Burp Suite, Wireshark, and Kali Linux.
-
-Here is the continuation of cybersecurity interview questions for freshers:  
+    - **Answer:** Nmap, Metasploit, Burp Suite, Wireshark, and Kali Linux.  
 
 ---
 
@@ -185,8 +183,6 @@ Here is the continuation of cybersecurity interview questions for freshers:
     - **Answer:** Phishing involves fraudulent attempts to obtain sensitive information via fake emails or websites. Detection includes verifying sender details and avoiding clicking on suspicious links.  
 
 ---
-
-Here’s the continuation with the next set of cybersecurity interview questions:
 
 ---
 
@@ -352,6 +348,290 @@ Here’s the continuation with the next set of cybersecurity interview questions
 
 100. **What is a CASB (Cloud Access Security Broker)?**  
     - **Answer:** A security solution that monitors and enforces security policies on cloud services.
+
+---
+
+### Pentesting & OWASP Top Vulnerabilities: Freshers Interview Questions with Short Answers
+
+---
+
+1. **What is penetration testing?**  
+   - **Answer:** Simulated cyberattacks to identify and exploit vulnerabilities in systems, applications, or networks.
+
+2. **What are the phases of penetration testing?**  
+   - **Answer:**  
+     1. **Planning and Reconnaissance**  
+     2. **Scanning**  
+     3. **Exploitation**  
+     4. **Post-Exploitation**  
+     5. **Reporting**
+
+3. **What is the OWASP Top 10?**  
+   - **Answer:** A standard awareness document listing the top 10 critical web application security risks.
+
+4. **What is broken access control?**  
+   - **Answer:** A flaw where users gain unauthorized access to resources or actions.
+
+5. **What is insecure deserialization?**  
+   - **Answer:** A vulnerability where untrusted data is used to manipulate application logic or execute code.
+
+6. **What is security misconfiguration?**  
+   - **Answer:** Weaknesses caused by improper setup of security controls in applications, servers, or databases.
+
+7. **What is the difference between active and passive reconnaissance?**  
+   - **Answer:**  
+     - **Active:** Direct interaction with a target (e.g., port scanning).  
+     - **Passive:** Gathering information without interacting (e.g., public records).
+
+8. **What is directory traversal?**  
+   - **Answer:** An attack that exploits improper input validation to access restricted directories on a server.
+
+9. **What is XXE (XML External Entities) attack?**  
+   - **Answer:** An attack exploiting vulnerabilities in XML parsers to disclose files, execute code, or perform DOS.
+
+10. **What is the purpose of Burp Suite?**  
+    - **Answer:** A tool for web application security testing, including intercepting, scanning, and exploiting vulnerabilities.
+
+---
+
+11. **What is broken authentication?**  
+    - **Answer:** Weak implementation of authentication mechanisms leading to unauthorized access.
+
+12. **What is server-side request forgery (SSRF)?**  
+    - **Answer:** An attack where the server makes unauthorized requests on behalf of the attacker.
+
+13. **What are some tools used for penetration testing?**  
+    - **Answer:** Nmap, Burp Suite, Metasploit, Nikto, OWASP ZAP.
+
+14. **What is a subdomain takeover?**  
+    - **Answer:** An attack where an attacker claims an unconfigured subdomain of a target's domain.
+
+15. **What is input validation, and why is it important?**  
+    - **Answer:** Ensuring user input meets requirements to prevent vulnerabilities like XSS and SQL Injection.
+
+16. **What are the top 10 owasp vulnerabilities?**  
+    - **Answer:** ![image](https://github.com/user-attachments/assets/5fc77950-371e-4a47-94df-0a39d7978884)
+.
+
+17. **What is privilege escalation in pentesting?**  
+    - **Answer:** Gaining higher permissions on a system to access restricted resources.
+
+18. **What is HTTP parameter pollution (HPP)?**  
+    - **Answer:** Injecting multiple HTTP parameters with the same name to manipulate server behavior.
+
+19. **What is insufficient logging and monitoring?**  
+    - **Answer:** Failure to detect and respond to attacks due to poor logging and alerting mechanisms.
+
+20. **What is CSP (Content Security Policy)?**  
+    - **Answer:** A browser security feature to prevent XSS and data injection attacks by controlling resources.
+
+---
+
+21. **What is Cross-Origin Resource Sharing (CORS) vulnerability?**  
+    - **Answer:** Misconfigured CORS policies allow unauthorized access to resources from different origins.
+
+22. **What is a WAF (Web Application Firewall)?**  
+    - **Answer:** A security tool that filters and monitors HTTP requests to protect web applications.
+
+23. **What is the difference between blind and error-based SQL Injection?**  
+    - **Answer:**  
+     - **Blind:** No visible error messages; relies on observing application behavior.  
+     - **Error-Based:** Exploits database error messages for information.
+
+24. **What is a path or resource injection attack?**  
+    - **Answer:** Modifying file paths to access unintended files or directories.
+
+25. **What is insecure cryptographic storage?**  
+    - **Answer:** Storing sensitive data using weak or no encryption, leading to unauthorized access.
+
+26. **What is the difference between reflected and stored XSS?**  
+    - **Answer:**  
+     - **Reflected:** Payload is reflected in the response immediately.  
+     - **Stored:** Payload is stored on the server and executed later by users.
+
+27. **What is API security testing?**  
+    - **Answer:** Identifying vulnerabilities in APIs, such as broken authentication, rate limiting issues, and data exposure.
+
+28. **What is a JWT (JSON Web Token)?**  
+    - **Answer:** A token used for securely transmitting information between parties as a JSON object.
+
+29. **What is a race condition vulnerability?**  
+    - **Answer:** A flaw where the system’s behavior depends on the sequence or timing of events.
+
+30. **What is Cross-Site Request Forgery (CSRF)?**  
+    - **Answer:** An attack that tricks users into performing unintended actions on a website they’re authenticated to.
+
+---
+
+31. **What is the difference between authenticated and unauthenticated pentesting?**  
+    - **Answer:**  
+     - **Authenticated:** Testing with user credentials.  
+     - **Unauthenticated:** Testing without credentials to simulate an external attacker.
+
+32. **What is an IDOR (Insecure Direct Object Reference)?**  
+    - **Answer:** A vulnerability where attackers access unauthorized resources by modifying input values.
+
+33. **What is DNS enumeration in pentesting?**  
+    - **Answer:** Gathering information about a domain's DNS records, subdomains, and configurations.
+
+34. **What is an open redirect vulnerability?**  
+    - **Answer:** A flaw where attackers redirect users to malicious websites through unvalidated URLs.
+
+35. **What is JSON injection?**  
+    - **Answer:** Exploiting JSON parsing to manipulate data or execute code in an application.
+
+36. **What is a NoSQL Injection?**  
+    - **Answer:** Exploiting vulnerabilities in NoSQL databases using malicious queries.
+
+37. **What is credential stuffing?**  
+    - **Answer:** Automated testing of stolen credentials to gain unauthorized access.
+
+38. **What is a reverse shell?**  
+    - **Answer:** A shell session initiated from a target machine back to the attacker’s system.
+
+39. **What is insecure object-level authorization?**  
+    - **Answer:** Failing to enforce authorization checks at the object level in APIs.
+
+40. **What is application-layer DDoS?**  
+    - **Answer:** Overloading a web application with requests, targeting specific functionalities.
+
+---  
+
+---
+
+41. **What is SSRF (Server-Side Request Forgery)?**  
+    - **Answer:** An attack where the server is tricked into making unauthorized requests to internal or external services.  
+
+42. **What is the purpose of enumeration in pentesting?**  
+    - **Answer:** To gather detailed information about systems, services, and users to identify potential attack vectors.  
+
+43. **What is application whitelisting, and why is it important?**  
+    - **Answer:** A security practice that allows only pre-approved applications to run, reducing the risk of executing malicious code.  
+
+44. **What is insecure file upload?**  
+    - **Answer:** A vulnerability where attackers upload malicious files due to improper validation or restrictions.  
+
+45. **What is the difference between active and passive vulnerability scanning?**  
+    - **Answer:**  
+      - **Active:** Actively probes systems to identify vulnerabilities.  
+      - **Passive:** Monitors network traffic to detect vulnerabilities without probing.  
+
+46. **What is fuzz testing (fuzzing)?**  
+    - **Answer:** A technique that inputs large amounts of random data into an application to find vulnerabilities.  
+
+47. **What is the difference between a reverse proxy and a forward proxy?**  
+    - **Answer:**  
+      - **Reverse Proxy:** Routes client requests to backend servers.  
+      - **Forward Proxy:** Routes client requests to external servers on behalf of the client.  
+
+48. **What is a command injection vulnerability?**  
+    - **Answer:** A flaw where attackers execute arbitrary commands on a server by manipulating inputs.  
+
+49. **What is the difference between static and dynamic analysis in security testing?**  
+    - **Answer:**  
+      - **Static Analysis:** Examining code without executing it.  
+      - **Dynamic Analysis:** Testing by executing code in a runtime environment.  
+
+50. **What is HTTP header injection?**  
+    - **Answer:** Injecting malicious input into HTTP headers to manipulate server behavior or compromise users.  
+
+---
+
+51. **What is parameter tampering?**  
+    - **Answer:** Manipulating parameters in web requests to modify data or bypass restrictions.  
+
+52. **What is a session fixation attack?**  
+    - **Answer:** Forcing a user to use a predefined session ID, allowing attackers to hijack the session.  
+
+53. **What is cookie poisoning?**  
+    - **Answer:** Tampering with cookies to modify session information or gain unauthorized access.  
+
+54. **What is CSP bypass?**  
+    - **Answer:** Exploiting flaws in a Content Security Policy to execute malicious scripts or resources.  
+
+55. **What is a reflected file download (RFD) attack?**  
+    - **Answer:** Exploiting vulnerabilities to trick users into downloading malicious files from a trusted source.  
+
+56. **What is a deserialization attack?**  
+    - **Answer:** Exploiting deserialization processes to execute arbitrary code or manipulate application logic.  
+
+57. **What is the purpose of using Metasploit in pentesting?**  
+    - **Answer:** A framework to exploit vulnerabilities, test security controls, and simulate real-world attacks.  
+
+58. **What is an unvalidated redirect/forward vulnerability?**  
+    - **Answer:** A flaw where users are redirected or forwarded to untrusted URLs without proper validation.  
+
+59. **What is a zero-trust model?**  
+    - **Answer:** A security model where no entity is trusted by default, and continuous verification is enforced.  
+
+60. **What is a CWE (Common Weakness Enumeration)?**  
+    - **Answer:** A list of common software vulnerabilities and weaknesses used to improve security practices.  
+
+---
+
+61. **What is a threat model in pentesting?**  
+    - **Answer:** A structured representation of potential threats to a system, identifying vulnerabilities and mitigation strategies.  
+
+62. **What is code injection?**  
+    - **Answer:** Injecting malicious code into an application to manipulate its behavior or gain access.  
+
+63. **What is insufficient transport layer protection?**  
+    - **Answer:** Weak or missing encryption for data transmission, exposing it to interception or tampering.  
+
+64. **What is API injection?**  
+    - **Answer:** Exploiting API endpoints by injecting malicious data to manipulate or access unauthorized resources.  
+
+65. **What is an open port, and why can it be risky?**  
+    - **Answer:** An open port accepts connections and can expose services to attacks if misconfigured or vulnerable.  
+
+66. **What is a credential relay attack?**  
+    - **Answer:** Forwarding stolen credentials or session tokens to gain unauthorized access.  
+
+67. **What is insecure API key storage?**  
+    - **Answer:** Storing API keys in insecure locations, such as code repositories or public files, making them accessible to attackers.  
+
+68. **What is HTTP response splitting?**  
+    - **Answer:** A vulnerability where malicious input is used to manipulate HTTP responses, often leading to cache poisoning or XSS.  
+
+69. **What is a web cache poisoning attack?**  
+    - **Answer:** Manipulating cached responses to serve malicious content to users.  
+
+70. **What is a business logic vulnerability?**  
+    - **Answer:** A flaw in application logic that allows attackers to exploit its intended functionality in harmful ways.  
+
+---
+
+71. **What is a subdomain enumeration, and why is it important?**  
+    - **Answer:** Identifying subdomains to find additional attack surfaces or misconfigured services.  
+
+72. **What is a security header?**  
+    - **Answer:** HTTP headers like `Content-Security-Policy` or `X-Frame-Options` that protect web applications from attacks.  
+
+73. **What is a broken session management vulnerability?**  
+    - **Answer:** A flaw in how sessions are created, stored, or terminated, leading to unauthorized access.  
+
+74. **What is API rate limiting?**  
+    - **Answer:** Restricting the number of API requests to prevent abuse or denial-of-service attacks.  
+
+75. **What is a web shell?**  
+    - **Answer:** A script uploaded to a web server to provide attackers with remote access and control.  
+
+76. **What is Clickjacking?**  
+    - **Answer:** A technique where users are tricked into clicking on hidden elements on a webpage.  
+
+77. **What is race condition exploitation?**  
+    - **Answer:** Exploiting timing issues to perform unauthorized actions or bypass restrictions.  
+
+78. **What is improper asset management in OWASP?**  
+    - **Answer:** Failing to manage and secure application assets like APIs or servers, leaving them vulnerable.  
+
+79. **What is a blind SSRF attack?**  
+    - **Answer:** A Server-Side Request Forgery attack where no response is visible, relying on indirect effects.  
+
+80. **What is the difference between HTTP GET and POST methods in security?**  
+    - **Answer:**  
+      - **GET:** Used for retrieving data; parameters visible in URLs, prone to sniffing.  
+      - **POST:** Used for sending data securely in the request body, better for sensitive information.  
 
 ---
 
